@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sphere Change
+  m_Controller: {fileID: 9100000, guid: 89e87a6b497def442b2323a8cefed0e4, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: df92db2b02dbb74439543a108b95fa5a, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: df92db2b02dbb74439543a108b95fa5a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: b06de4ad4cb4c6343bd9c877cfd401e3, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b06de4ad4cb4c6343bd9c877cfd401e3, type: 2}
