@@ -14,15 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/VR-school.unity
     guid: 6ac7f87f5c852714b8e9ebffd741cceb
-  - enabled: 0
-    path: Assets/EnDescrition.unity
-    guid: 39e4ff7c2f94cd14b9d31dff3f6d8dbb
-  - enabled: 0
-    path: Assets/vedio.unity
-    guid: 3e3dd17f47e94eb40a46f6c9af6427b9
-  - enabled: 0
-    path: 
-    guid: 81d74f2752e308b48900f43c8856a44b
+  - enabled: 1
+    path: Assets/map.unity
+    guid: 94cad03f4c79faa4492d9531be4ee4a3
   - enabled: 1
     path: Assets/littlegame.unity
     guid: 8545b32b7796eb2478d47a61f595cbf0

@@ -294,7 +294,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 771f3f0b749244e46b37db223595f95e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a344f1098ecc1d64a9df5e2491a727c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1299,9 +1299,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Next
-
-'
+  m_Text: "\u4E0B\u4E00\u5F35\n"
 --- !u!222 &1415903307
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1397,7 +1395,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: d6196e768460460408eabca79b1d0361, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4e02310f9380407439756e714aa0f0ff, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
