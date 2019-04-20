@@ -16,8 +16,17 @@ public class Loadingscencecontrol : MonoBehaviour
 
     public void LoadScreen(int lvl)
     {
+        var L = _LoadScreen(lvl);
+        try
+        {
+            var D = StartCoroutine(L);
 
-        StartCoroutine(_LoadScreen(lvl));
+        }
+        catch (System.Exception)
+        {
+
+            throw;
+        }
 
     }
 

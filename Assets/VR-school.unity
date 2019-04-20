@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: f06e63ad2a95d3041a33ad50be3a6d29, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 77d79d7f2aae8fc4d83a62bd32282358, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731189, g: 0.38073924, b: 0.35872707, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -1941,12 +1941,12 @@ GameObject:
   - component: {fileID: 190483591}
   - component: {fileID: 190483590}
   m_Layer: 0
-  m_Name: Sphere horse 6
+  m_Name: Sphere 37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &190483590
 Animator:
   serializedVersion: 3
@@ -2876,12 +2876,12 @@ GameObject:
   - component: {fileID: 271446934}
   - component: {fileID: 271446933}
   m_Layer: 0
-  m_Name: Sphere horse 2
+  m_Name: Sphere 40
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &271446933
 Animator:
   serializedVersion: 3
@@ -3136,12 +3136,12 @@ GameObject:
   - component: {fileID: 284614917}
   - component: {fileID: 284614916}
   m_Layer: 0
-  m_Name: Sphere horse 15
+  m_Name: Sphere 47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &284614916
 Animator:
   serializedVersion: 3
@@ -3730,12 +3730,12 @@ GameObject:
   - component: {fileID: 321306473}
   - component: {fileID: 321306472}
   m_Layer: 0
-  m_Name: Sphere horse 13
+  m_Name: Sphere 45
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &321306472
 Animator:
   serializedVersion: 3
@@ -5414,12 +5414,12 @@ GameObject:
   - component: {fileID: 453348456}
   - component: {fileID: 453348455}
   m_Layer: 0
-  m_Name: Sphere horse 7
+  m_Name: Sphere 38
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &453348455
 Animator:
   serializedVersion: 3
@@ -7881,12 +7881,12 @@ GameObject:
   - component: {fileID: 677135354}
   - component: {fileID: 677135353}
   m_Layer: 0
-  m_Name: Sphere horse 11
+  m_Name: Sphere 43
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &677135353
 Animator:
   serializedVersion: 3
@@ -9336,7 +9336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &775722096
 Transform:
   m_ObjectHideFlags: 0
@@ -10186,12 +10186,12 @@ GameObject:
   - component: {fileID: 813841468}
   - component: {fileID: 813841467}
   m_Layer: 0
-  m_Name: Sphere horse 3
+  m_Name: Sphere 34
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &813841467
 Animator:
   serializedVersion: 3
@@ -10786,12 +10786,12 @@ GameObject:
   - component: {fileID: 842428129}
   - component: {fileID: 842428128}
   m_Layer: 0
-  m_Name: Sphere horse 8
+  m_Name: Sphere 39
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &842428128
 Animator:
   serializedVersion: 3
@@ -12395,12 +12395,12 @@ GameObject:
   - component: {fileID: 926653267}
   - component: {fileID: 926653266}
   m_Layer: 0
-  m_Name: Sphere horse 1
+  m_Name: Sphere 33
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &926653265
 Transform:
   m_ObjectHideFlags: 0
@@ -12650,12 +12650,12 @@ GameObject:
   - component: {fileID: 932055556}
   - component: {fileID: 932055555}
   m_Layer: 0
-  m_Name: Sphere horse 12
+  m_Name: Sphere 44
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &932055555
 Animator:
   serializedVersion: 3
@@ -13335,12 +13335,12 @@ GameObject:
   - component: {fileID: 967439482}
   - component: {fileID: 967439481}
   m_Layer: 0
-  m_Name: Sphere horse 10
+  m_Name: Sphere 42
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &967439481
 Animator:
   serializedVersion: 3
@@ -19141,12 +19141,12 @@ GameObject:
   - component: {fileID: 1295756720}
   - component: {fileID: 1295756719}
   m_Layer: 0
-  m_Name: Sphere horse 4
+  m_Name: Sphere 35
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1295756719
 Animator:
   serializedVersion: 3
@@ -21528,12 +21528,12 @@ GameObject:
   - component: {fileID: 1483931507}
   - component: {fileID: 1483931506}
   m_Layer: 0
-  m_Name: Sphere horse 14
+  m_Name: Sphere 46
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1483931506
 Animator:
   serializedVersion: 3
@@ -22973,12 +22973,12 @@ GameObject:
   - component: {fileID: 1626543839}
   - component: {fileID: 1626543838}
   m_Layer: 0
-  m_Name: Sphere horse 9
+  m_Name: Sphere 41
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1626543838
 Animator:
   serializedVersion: 3
@@ -23471,12 +23471,12 @@ GameObject:
   - component: {fileID: 1663633071}
   - component: {fileID: 1663633070}
   m_Layer: 0
-  m_Name: Sphere horse 5
+  m_Name: Sphere 36
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!95 &1663633070
 Animator:
   serializedVersion: 3

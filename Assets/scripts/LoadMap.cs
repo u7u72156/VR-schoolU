@@ -32,12 +32,12 @@ public class LoadMap : MonoBehaviour {
         }
         int p = PlayerPrefs.GetInt("mapsync");
 
-        if (p!=0)   list[p].SetActive(true);
+        //if (p==0) p=
+
+        list[p].SetActive(true);
         //.SetActive(true);
     }
 
         // Update is called once per frame
-        void Update () {
-		
-	}
+
 }

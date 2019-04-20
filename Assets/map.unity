@@ -735,7 +735,7 @@ GameObject:
   - component: {fileID: 256031766}
   - component: {fileID: 256031769}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Button (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1387,7 +1387,7 @@ GameObject:
   - component: {fileID: 782441165}
   - component: {fileID: 782441168}
   m_Layer: 5
-  m_Name: Button (10)
+  m_Name: Button (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1700,8 +1700,9 @@ GameObject:
   - component: {fileID: 1043129824}
   - component: {fileID: 1043129823}
   - component: {fileID: 1043129822}
+  - component: {fileID: 1043129825}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Button (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1764,7 +1765,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1043129823}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1043129825}
+        m_MethodName: Load
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1043129820}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1043129823
@@ -1800,6 +1812,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1043129820}
+--- !u!114 &1043129825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1043129820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d32838c53775ea4e8b27890f509b2b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingScreenObj: {fileID: 1043403972}
+  slider: {fileID: 2070481625}
 --- !u!1 &1043403972
 GameObject:
   m_ObjectHideFlags: 0
@@ -2119,6 +2144,7 @@ GameObject:
   - component: {fileID: 1253154469}
   - component: {fileID: 1253154468}
   - component: {fileID: 1253154467}
+  - component: {fileID: 1253154470}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -2183,7 +2209,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1253154468}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1253154470}
+        m_MethodName: Load
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 1253154465}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1253154468
@@ -2219,6 +2256,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1253154465}
+--- !u!114 &1253154470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1253154465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d32838c53775ea4e8b27890f509b2b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingScreenObj: {fileID: 1043403972}
+  slider: {fileID: 2070481625}
 --- !u!1 &1380850354
 GameObject:
   m_ObjectHideFlags: 0

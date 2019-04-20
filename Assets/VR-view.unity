@@ -195,7 +195,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1648659023}
+      - m_Target: {fileID: 1648659025}
         m_MethodName: LoadScreen
         m_Mode: 3
         m_Arguments:
@@ -361,7 +361,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1648659023}
+      - m_Target: {fileID: 0}
         m_MethodName: LoadScreen
         m_Mode: 3
         m_Arguments:
@@ -3173,8 +3173,9 @@ GameObject:
   - component: {fileID: 981142575}
   - component: {fileID: 981142574}
   - component: {fileID: 981142573}
+  - component: {fileID: 981142576}
   m_Layer: 0
-  m_Name: Buttom
+  m_Name: ButtomC
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3249,28 +3250,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1648659023}
-        m_MethodName: LoadScreen
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 2
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
       - m_Target: {fileID: 542816916}
         m_MethodName: SetActive
         m_Mode: 6
@@ -3285,6 +3264,17 @@ MonoBehaviour:
       - m_Target: {fileID: 1122570954}
         m_MethodName: SetActive
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1648659023}
+        m_MethodName: LoadFromInt
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3328,6 +3318,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 981142571}
+--- !u!114 &981142576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 981142571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d32838c53775ea4e8b27890f509b2b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingScreenObj: {fileID: 1448807013}
+  slider: {fileID: 1325964598}
 --- !u!1 &1012788069
 GameObject:
   m_ObjectHideFlags: 0
@@ -5947,6 +5950,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648659024}
   - component: {fileID: 1648659023}
+  - component: {fileID: 1648659025}
   m_Layer: 0
   m_Name: Loadingcontrol
   m_TagString: Untagged
@@ -5962,7 +5966,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1648659022}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eda381912fce1449b4dc62173254002, type: 3}
+  m_Script: {fileID: 11500000, guid: 6d32838c53775ea4e8b27890f509b2b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   loadingScreenObj: {fileID: 1448807013}
@@ -5980,6 +5984,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1648659025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1648659022}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eda381912fce1449b4dc62173254002, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  loadingScreenObj: {fileID: 1448807013}
+  slider: {fileID: 1325964598}
 --- !u!1 &1671301305
 GameObject:
   m_ObjectHideFlags: 0
