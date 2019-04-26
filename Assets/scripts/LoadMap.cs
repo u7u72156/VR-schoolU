@@ -10,7 +10,7 @@ public class LoadMap : MonoBehaviour {
         var list = new List<GameObject>();
         //string str = "Sphere " + (PlayerPrefs.GetInt("mapsync")+1).ToString();
 
-        for (int i = 1; i < 48; i++)
+        for (int i = 1; i < 52; i++)
         {
             try
             {
