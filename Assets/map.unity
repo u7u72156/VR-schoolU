@@ -1522,7 +1522,7 @@ GameObject:
   - component: {fileID: 793928746}
   - component: {fileID: 793928745}
   m_Layer: 5
-  m_Name: Button (48)
+  m_Name: Button (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2146,7 +2146,7 @@ GameObject:
   - component: {fileID: 1253154467}
   - component: {fileID: 1253154470}
   m_Layer: 5
-  m_Name: Button (49)
+  m_Name: Button (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2242,7 +2242,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 0fade48beab284c43a23331c285aea9c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0e335835b1dde524bbd80ff39bb0a03a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3194,7 +3194,7 @@ GameObject:
   - component: {fileID: 2071560835}
   - component: {fileID: 2071560834}
   m_Layer: 5
-  m_Name: Button (47)
+  m_Name: Button (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
